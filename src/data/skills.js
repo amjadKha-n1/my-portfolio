@@ -1,0 +1,66 @@
+
+export const skillGroups = [
+    {
+      id: 'backend',
+      number: '01',
+      title: 'Backend Development',
+      description: 'My primary area of focus',
+      skills: [
+        'JavaScript',
+        'Node.js',
+        'Express.js',
+        'REST APIs',
+        'MVC Architecture',
+        'Authentication',
+        'Middleware',
+      ],
+      featured: true,
+    },
+    {
+      id: 'databases',
+      number: '02',
+      title: 'Databases',
+      description: 'Data modeling and persistence',
+      skills: [
+        'MongoDB',
+        'Mongoose',
+        'PostgreSQL',
+        'SQL',
+        'Prisma',
+        'Database Migrations',
+      ],
+      featured: true,
+    },
+    {
+      id: 'frontend',
+      number: '03',
+      title: 'Frontend Development',
+      description: 'Building application interfaces',
+      skills: [
+        'HTML',
+        'CSS',
+        'React',
+        'JSX',
+        'EJS',
+        'Responsive Design',
+      ],
+      featured: false,
+    },
+    {
+      id: 'tools',
+      number: '04',
+      title: 'Tools & Integrations',
+      description: 'Development and application workflows',
+      skills: [
+        'Git',
+        'GitHub',
+        'Linux',
+        'Postman',
+        'Render',
+        'Cloudinary',
+        'Stripe Test Payments',
+      ],
+      featured: false,
+    },
+  ]
+  

@@ -1,0 +1,87 @@
+
+export const projects = [
+    {
+      id: 1,
+      number: '01',
+      name: 'SmartMarket',
+      subtitle: 'Multi-vendor e-commerce platform',
+      description:
+        'A full-stack marketplace where customers can shop, sellers can manage their stores, and administrators can review seller applications and manage the platform.',
+      technologies: [
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Mongoose',
+        'EJS',
+        'Stripe',
+      ],
+      features: [
+        'Role-based access control',
+        'Product and order management',
+        'Seller approval workflow',
+        'Shopping cart and test payments',
+      ],
+      category: 'FULL-STACK APPLICATION',
+      liveUrl: 'https://smartmarket-end0.onrender.com/',
+      githubUrl: 'https://github.com/amjadKha-n1/SmartMarket',
+      status: 'Live demo',
+      accent: 'lime',
+    },
+    {
+      id: 2,
+      number: '02',
+      name: 'FreelanceMarket',
+      subtitle: 'Freelance marketplace',
+      description:
+        'A marketplace connecting clients and freelancers, with separate user roles, protected application routes, and a payment flow using Stripe test mode.',
+      technologies: [
+        'React',
+        'JavaScript',
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Stripe',
+      ],
+      features: [
+        'Client and freelancer roles',
+        'JWT authentication',
+        'React routing and state',
+        'Test checkout and payment handling',
+      ],
+      category: 'FULL-STACK APPLICATION',
+      liveUrl: 'https://freelance-marketplace-lvyx.onrender.com/',
+      githubUrl: 'https://github.com/amjadKha-n1/freelanceMarket',
+      status: 'Live demo',
+      accent: 'violet',
+    },
+    {
+      id: 3,
+      number: '03',
+      name: 'Booking System',
+      subtitle: 'Room booking REST API',
+      description:
+        'A backend project focused on room reservations, relational data, authentication, and a layered application structure using JavaScript and PostgreSQL.',
+      technologies: [
+        'JavaScript',
+        'Node.js',
+        'Express',
+        'PostgreSQL',
+        'SQL',
+        'node-pg-migrate',
+        'JWT',
+        'Zod',
+      ],
+      features: [
+        'Users, rooms, and bookings',
+        'Database schema migrations',
+        'Controller and service layers',
+        'Request validation and authentication',
+      ],
+      category: 'BACKEND API',
+      liveUrl: null,
+      githubUrl: 'https://github.com/amjadKha-n1/booking-system',
+      status: 'In development',
+      accent: 'blue',
+    },
+  ]
+  
